@@ -1,0 +1,16 @@
+
+.card-body {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card-body {
+    background:#a5ecd7;
+}
+
+.card-title {
+    background:#0278ae;
+    border-style: outset;
+    border-color: #e8ffc1;
+    padding: 5px
+}

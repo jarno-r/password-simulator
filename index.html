@@ -16,17 +16,41 @@
 
   <script src="password.js"></script>
 </head>
-    <div>
-        <div id="container">
-            <form>
-            <div id="login-title">
-                Register your user account
+
+
+<body>
+        <div class="container">
+            <div class="card" style="width: 30rem;">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        The Password Simulator
+                    </h3>
+                    You can practice registering an account with something.
+                </div>
             </div>
+            <div class="card" style="width: 30rem;">
+                <div class="card-body">
+                    <h4 class="card-title">
+                Register your user account
+                    </h4>
             <div>
                 <label for="uname">
+                    <i class="fa fa-user"></i>
+                </label>
+                <input name="uname" type="text">
+            </div>
+            <div>
+                <label for="upassword">
                     <i class="fa fa-lock"></i>
                 </label>
-                <input name="uname" type="password">
+                <input name="upassword" type="password">
+            </div>
+            Type second time
+            <div>
+                <label for="upassword2">
+                    <i class="fa fa-lock"></i>
+                </label>
+                <input  name="upassword2" type="password">
             </div>
             <div id="error-msg">
                 Error
@@ -34,11 +58,9 @@
             <div>
                 <button id="register-button">Register</button>
             </div>
-        </form>
         </div>
-   
-    </div>
-<body>
-  
+        </div>
+        </div>
+
 </body>
 </html>
